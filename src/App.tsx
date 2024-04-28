@@ -7,20 +7,10 @@ import { fromNano } from '@ton/core';
 // current testnet contract location: EQBUBv0WJj0Brev8jUVEp0FHNaPVm246yGi0FiEagZk4E51k
 // current mainnet contract location: EQB7pUKVUe9Var91BPEFPYOwTuTahSU8De9NNkfZYYw4znE7
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const jeremy_testnet_wallet_addr =
-  //"kQDd4iVoWmfp10-7HZ9whtfz7XqfQMDI8cN7iqP7sZgBjesk";
-  //"UQBKYXDr0H7i0En_6dos5_nhvbWA38KA6TLah3z0yUvzpcde";
-  "0QDd4iVoWmfp10-7HZ9whtfz7XqfQMDI8cN7iqP7sZgBjbbh";
-
 function App() {
   const {
     contract_address,
     counter_value,
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    recent_sender,
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    owner_address,
     contract_balance,
     sendIncrement,
     sendDeposit,
